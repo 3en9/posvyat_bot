@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "posvyat-test",
+  "private_key_id": "8f7ac7f4c442882ae86f1e1c6f7bf527433d63dc",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQC2XOfl2XHAnT2I\n7rf7Dfyi2dzQo4MyrVuaR7zzauiOQCRpJPTUAxXKz9mN2ZjNt9mY8JtOBtYiU08F\nKeI4gxbxZkXp4qbEOJANSATlhi8QxSD0A0oJqMWBz5wrVwv5Xz9k+lco6lE2zUXc\nllEt3XcR9TooFKAOTedPWwZ5cWMEWw7egDqYQ+IwuqzU80M5VX1nOHkYxl7OjAoz\nqDQuZoZDBp6qcpZO4Sfq2wix48Fgs8TOtt7Lrlo+RAg5Z8J12V2gGzw7S1EvJpEH\nEOVBKCqvrUbXw5qm4hNw85k1i35dGDCSOp9nFdgIzRT5i9YX60suZmEqVuxUCVOY\nJ4S79zhJAgMBAAECggEAIzgkLTbmii2UAcsgyyKzZPwwcjbyEqp6Y3xxWI2QJlDq\n90eE5SFHZyjnOkcJBMn6A1iMlfAqEO0H+NZS81kV6D85R2dXj9Pgtj/veiiFFHcN\n2zJ7bQwkQOLIpXIlRN8JTkYu6R7/2lagpG5/dR0tbtFujukU1E5lWuUYhgHI/sEH\n0YvN+wK53YpzLf2Dw3dNI5gJ9bNJOGaseUpkNS9dp/CsnrWUpxjVOhRC+3YeD8g3\nPo+WIs39v3Bij9BK/5gEa294Ypmu/h+SKbIg6M5TYo9WqGRG3jnUru9ihtCtKipG\nSfoM6aRTjw3RYcT1UHWkqrP4dFOaPDRffGgV4WKI1QKBgQDbParj4gIACOmClgg4\nECZFOA4Brumpq316x9pOiNPErFQv2ekygVKzT+TN70OOj6bdJ2wprUiy+5/+q6YL\nyIieDNgHjrnXSnw7t9XQJpDq7XslX7trGyXfrMwF+dnQcoi7kYh4rVix8Arzp1cc\nuu8lbcpRsulEtKgzKXLiVVKIzwKBgQDU8FlnUjnGeyRCSRkVNqyBzxGY+UJdZy4Y\nVNSPwXQJQ2ZaCOcCLcL0ngGOCUC4rI6iOObmBGd2Z+oeyXd3xszA4XqB1a+uhmvU\nSF5Imbn5Ib+1Q/OR+bW2JcOCCX02r/ojyleFXnl3++NknwmZwwaaC27Koa3hjbrl\nUQCY58xDZwKBgQCr1NBsXQXeSx3haH+2mQm1tLJdpV6jybHGGn9CkEER41L0UiFQ\noUVVHqggs4dKY9KPgMdoftT82vRSIOw6TgitfzmN6tJDJ7DpCTN+OcvZJRogd8Cn\nuJZdkcwyXtnVYv9Bq1W/53UduRqMTzqaXPT0a/FnSQdE/ybZOoI9XEwcxwKBgAa4\nHtoXyiLtN9Ovos78jqz578A3/VQdMWMrKhnvLM4uBkjJByEWeJRnd/0XZaduKoIL\n8Z1IfktKNCUMjmyFJWjgtJDsQULskvJ75h28XBX0bqw1nLX6fzVkM6siyYS0QNxo\nQiK/PG4A0MgYDKGBee/adICIYYhAhKk/yRkKF3P5AoGBALhOG18oi4tpYxKlC630\nvSujvU/gXgJ3I7cdPald+Wm0mY3jhhaCYheHOx1p6j9mB/hsvHepREMgQfL60/l5\nDAsmEF5efTR0pVj3iIrKZq3d+DkeFnEUOwmOAdS9AIgOOeQIQZU1Y3nIhl1yXA+C\nbtLQaNrmmKLtmbJl2PgeppAG\n-----END PRIVATE KEY-----\n",
+  "client_email": "posvyat-vkbot@posvyat-test.iam.gserviceaccount.com",
+  "client_id": "115712557566014027340",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/posvyat-vkbot%40posvyat-test.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}
