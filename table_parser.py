@@ -6,6 +6,7 @@ json_file = 'table.json'
 reg_message = 'Поздравляю! \nТы успешно прошел(а) регистрацию на самое незабываемое событие студенчества 🎯'
 transfer_message = 'В дорогу 🚌\nТы успешно прошел(а) регистрацию на трансфер.'
 living_message = 'Выспаться сможешь 🛌 \nТы зарегистрировался(ась). На Посвяте хорошо отдохнешь после захватывающей программы.'
+money_message = 'Оплата прошла успешно'
 
 
 def main():
@@ -77,7 +78,7 @@ def check_registration():
                 tmp = send_message(user, reg_message)
                 if tmp:
                     with open('registration_list.txt', 'a') as file:
-                        file.writelines(str(user))
+                        file.writelines(str(user) + '\n')
     except Exception as ex:
         print(f'Ошибка на вызов функции check_registration', ex, sep='\n')
 
@@ -137,9 +138,37 @@ def check_living():
     except Exception as ex:
         print(f'Ошибка на вызов функции check_living', ex, sep='\n')
 
+def check_money():
+    try:
+        gc = gspread.service_account(filename=json_file)
+        sh = gc.open(table_name)
+        worksheet = sh.worksheet('registration')
+        with open('money_list.txt') as file:
+            current = []
+            for i in file.readlines():
+                if i:
+                    current.append(int(i.replace('\n', '')))
+        file.close()
+
+        a = worksheet.get_all_records()
+        for row in a:
+            user = row['vkurl'].split('/')[-1]
+            if user[:2] == 'id':
+                user = user[2:]
+            else:
+                user = get_user_id(user)
+            if user not in current and user != '' and row['payment'] == 1:
+                tmp = send_message(user, money_message)
+                if tmp:
+                    with open('money_list.txt', 'a') as file:
+                        file.writelines(str(user))
+    except Exception as ex:
+        print(f'Ошибка на вызов функции check_money', ex, sep='\n')
+
 
 if __name__ == '__main__':
     # main()
-    check_registration()
-    check_transfer()
-    check_living()
+    # check_registration()
+    # check_transfer()
+    # check_living()
+    check_money()
